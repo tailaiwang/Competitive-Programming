@@ -1,5 +1,35 @@
+/*
+    Hack the North 2020 Front-End Challenge
+    Tailai Wang, UW CS/BBA '24
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 body{
     font-family: "Raleway", sans-serif;
     padding: none;
 }
+
+footer{
+    background-color: rgb(190,190,190,0.6);
+    font-family: "Raleway", sans-serif;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.header{
+    text-align: center;
+    height : 15vh;
+    background-color: rgb(190,190,190,0.6);
+
+}
+
+.error_active{
+    text-align: center;
+    height: 85vh;
+}
+
+.main_profile_active{
+    height: 85vh;
+}
+
+
