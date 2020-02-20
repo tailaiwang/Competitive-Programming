@@ -6,10 +6,14 @@
 <!DOCTYPE HTML>
 <head>
     <title>Hackathon Global Inc.</title>
-    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!--Bootstrap-->
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
     <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--JQuery-->
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--Popper-->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!--Font Awesome (Did I Even Use This)-->
     <script src="https://kit.fontawesome.com/622e10b3fc.js"></script>
 
     <link href = "main.css" rel = "stylesheet">
@@ -21,13 +25,70 @@
         <h5>A Hackathon Global™ Event</h5>
     </div>
 
-    <div class = "error text-center">
+    <!--Error Message-->
+    <div class = "error">
         <img class = "error_pic">
         <h1 class = "error_message"></h1>
+        <p class = "error_message2"></p>
     </div>
-    
+
+    <!--Login Message-->
+    <div class = "login">
+        <img class = "login_pic profile">
+        <h4 class = "profile">Use Hyper-Encrypted-Super-Secure Keys for Access</h4>
+        <form name = "login_form">
+            <div class = "row">
+                <div class = "col-md-4"></div>
+                <div class = "col-md-4">
+                    <input type="text" placeholder="Enter Username" name = "uname" required>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-md-4"></div>
+                <div class = "col-md-4">
+                    <input type="password" placeholder="Enter Password" name = "pw" required>
+                </div>
+            </div>
+            <button type = "button" onclick = login_verification()>Login</button>
+        </form>  
+    </div>
+
+    <!--Main Profile Section-->
     <div class = "main_profile">
-        <img class = "profile_pic">
+        <!--Primary Information Section-->
+        <div class = "row profile">
+            <div class = "col-md-1"></div>
+            <div class = "col-md-2">
+                <img class = "profile_pic">
+            </div>
+            <div class = "col-md-8">
+               <h6 class = "user_id">ID: </h6>
+                <h6 class = "name">Name: </h6>
+                <p class  = "bio"></p>
+            </div>
+        </div>
+
+        <hr>
+        <h3 class = "type_console text-center"></h3>
+        <hr>
+        <!--Unique Information Section-->
+        <h4 class = "checkin_status text-center item_invisible">Check-In Status: <span></span></h4>
+        <h4 class = "num_workshops text-center item_invisible">Number of Workshops Attended: <span></span></h4>
+        <h4 class = "sponsor_info text-center item_invisible">Sponsor Info: <span></span></h4>
+        <h4 class = "next_shift text-center item_invisible">Next Shift: <span></span></h4>
+        <h4 class = "phone_number text-center item_invisible">Phone Number: <span></span></h4>
+        <hr>
+        <!--Actions Section-->
+        <div class = "row profile">
+            <div class = "col-md-1"></div>
+            <div class = "col-md-10">
+                <table class = "text-center action_table action_buttons">
+                    <tr>
+                        <th>Mission Control Panel</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
     
 </body> 

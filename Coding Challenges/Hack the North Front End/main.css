@@ -20,16 +20,63 @@ footer{
     text-align: center;
     height : 15vh;
     background-color: rgb(190,190,190,0.6);
-
 }
 
 .error_active{
+    padding-top: 10vh;
     text-align: center;
-    height: 85vh;
+    min-height: 85vh;
 }
 
 .main_profile_active{
-    height: 85vh;
+    min-height: 85vh;
 }
 
+.login_active{
+    min-height: 85vh;
+}
+
+.profile_pic{
+    width: 175px;
+    height: 175px;
+    border: 2px rgb(190, 190, 190,0.6) solid;
+}
+
+.not_checked{
+    color: red;
+    text-align: center;
+    background-color: rgb(190, 190, 190,0.6);
+}
+
+.checked{
+    color: green;
+    text-align: center;
+    background-color: rgb(190, 190, 190,0.6);
+}
+
+.info_active span{
+    background-color: rgb(190, 190, 190,0.6);
+}
+
+.checkin_button{
+    background-color: rgb(190, 190, 190,0.6);
+    text-align: center;
+}
+
+.action_table{
+    width: 100%;
+}
+
+.action_table th,td{
+    border: 2px rgb(190, 190, 190,0.6) solid;
+    padding: 1vh;
+}
+
+.profile{
+    padding-top: 5vh;
+}
+
+.item_invisible{
+    display: none;
+}
 
