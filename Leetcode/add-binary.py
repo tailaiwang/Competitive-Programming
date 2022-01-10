@@ -1,5 +1,5 @@
 #Add Binary
-#https://leetcode.com/problems/add-binary/submissions/
+#https://leetcode.com/problems/add-binary/
 #Easy (Daily Challenge), 09/01/2022
 #Tailai Wang
 
