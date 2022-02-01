@@ -1,3 +1,8 @@
+#Maximum difference between increasing elements
+#https://leetcode.com/problems/maximum-difference-between-increasing-elements/
+#Easy, 31/01/2022
+#Tailai Wang
+
 class Solution(object):
     def maximumDifference(self, nums):
         """
