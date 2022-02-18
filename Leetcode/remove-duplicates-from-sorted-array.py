@@ -3,6 +3,7 @@
 #Easy, 18/02/2022
 #Tailai Wang
 
+
 class Solution(object):
     def removeDuplicates(self, nums):
         """
