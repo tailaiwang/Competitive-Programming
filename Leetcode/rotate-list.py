@@ -21,11 +21,12 @@ class Solution(object):
         while last.next:
             last = last.next
             n += 1
-            
-        if k % n == 0: return head
+        
+        spots = k % n
+        if spots == 0: return head
         
         middle = head
-        for i in range(n - k%n-1):
+        for i in range(n - spots -1):
             middle = middle.next
             
         new_head = middle.next
