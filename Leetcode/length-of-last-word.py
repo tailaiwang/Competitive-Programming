@@ -9,5 +9,6 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        
         return len(list(filter(bool, s.split(" ")))[-1])
         
