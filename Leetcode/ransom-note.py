@@ -1,4 +1,4 @@
-#Ransome Note
+#Ransom Note
 #https://leetcode.com/problems/ransom-note/
 #Easy (Data Structures I), 25/03/2022
 #Tailai Wang

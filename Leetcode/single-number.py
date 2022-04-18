@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Single Number
 #https://leetcode.com/problems/single-number/
 #Easy (Daily Challenge), 15/02/2022
@@ -15,21 +14,3 @@ class Solution(object):
             if nums[num] == 1:
                 return num
         
-=======
-#Single Number
-#https://leetcode.com/problems/single-number/
-#Easy (Daily Challenge), 15/02/2022
-#Tailai Wang
-
-class Solution(object):
-    def singleNumber(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        nums = Counter(nums)
-        for num in nums:
-            if nums[num] == 1:
-                return num
-        
->>>>>>> ba49908b5b4d7d2990ceb0c0f59ad013ea443c99
