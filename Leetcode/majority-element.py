@@ -1,6 +1,6 @@
 #Majority Element
 #https://leetcode.com/problems/majority-element/
-#Easy (Data Structure II)
+#Easy (Data Structure II), 18/04/2022
 #Tailai Wang
 
 class Solution(object):
