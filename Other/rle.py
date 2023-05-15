@@ -13,13 +13,13 @@ def run_length_encode(input_str):
 	
 	for i in range(1, len(input_str)):
 		if input_str[i] != cur_char:
-			output_str += (cur_char + str(cur_char_count))
+			output_str += "(" +  (cur_char + " " + str(cur_char_count)) + ")"
 			cur_char = input_str[i]
 			cur_char_count = 1
 		else:
 			cur_char_count += 1
 	
-	return (output_str + cur_char + str(cur_char_count))
+	return (output_str + "(" + cur_char + " " + str(cur_char_count) + ")")
 
 print(run_length_encode("aaabbcccc"))
 
