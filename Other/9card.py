@@ -17,11 +17,12 @@ for i in range(sample_size):
 	# Remaining cards in the deck
 	deck = []
 	for i in range(2,15):
-		for j in range(4):
+		for j in range(8):
 			deck.append(i)
 
-	# Cards currently in the grid
-	hand = random.sample(deck, 9)
+	# Cards currently in your hand
+	hand_size = 9
+	hand = random.sample(deck, hand_size)
 	for card in hand:
 		deck.remove(card)
 
@@ -64,4 +65,6 @@ for i in range(sample_size):
 			# we lost
 			break
 # Roughly 12 to 13% win rate
+
 print("The Machine won " + str(num_wins) + " out of " + str(sample_size))
+print("Win percentage is " + str(num_wins / sample_size))
